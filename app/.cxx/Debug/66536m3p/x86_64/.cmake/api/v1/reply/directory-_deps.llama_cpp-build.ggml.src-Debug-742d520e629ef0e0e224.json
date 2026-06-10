@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ggml_add_backend_library",
+			"ggml_add_cpu_backend_variant_impl"
+		],
+		"files" : 
+		[
+			"D:/AI/edgeai/app/.cxx/Debug/66536m3p/x86_64/_deps/llama_cpp-src/ggml/src/CMakeLists.txt",
+			"D:/AI/edgeai/app/.cxx/Debug/66536m3p/x86_64/_deps/llama_cpp-src/ggml/src/ggml-cpu/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 463,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 280,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libggml-cpu.so"
+			],
+			"targetId" : "ggml-cpu::@8962117a6a1c5621966e",
+			"targetIndex" : 3,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/llama_cpp-build/ggml/src",
+		"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/x86_64/_deps/llama_cpp-src/ggml/src"
+	}
+}

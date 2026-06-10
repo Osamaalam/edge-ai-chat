@@ -1,0 +1,53 @@
+# Gradle files
+.gradle/
+build/
+app/build/
+
+# Local configuration files
+local.properties
+.idea/workspace.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/caches/
+.idea/nav/
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/deploymentTargetDropDown.xml
+.idea/runConfigurations.xml
+.idea/ux.xml
+*.iml
+
+# Native C++ build files
+.cxx/
+.externalNativeBuild/
+obj/
+libs/
+cmake-build-*/
+.cmake/
+
+# Built Android packages
+*.apk
+*.ap_
+*.aab
+
+# Local models and large binaries (Do NOT upload large GGUF files to GitHub)
+*.gguf
+Qwen3.5-0.8B-GGUF/
+
+build-issues-log.md
+
+# Signing files
+*.jks
+*.keystore
+*.pk8
+*.pem
+private.properties
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Crashlytics and performance plugin files
+crashlytics/
+crashlytics-build.properties

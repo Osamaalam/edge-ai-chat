@@ -1,0 +1,477 @@
+{
+  "buildFiles": [
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\common\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\ggml\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\ggml\\src\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\ggml\\src\\ggml-cpu\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\src\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\batched-bench\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\completion\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\cvector-generator\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\export-lora\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\fit-params\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\gguf-split\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\imatrix\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\llama-bench\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\mtmd\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\parser\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\perplexity\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\quantize\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\results\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\tokenize\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\tools\\tts\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-src\\vendor\\cpp-httplib\\CMakeLists.txt",
+    "D:\\AI\\edgeai\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\HP\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\HP\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "cpp-httplib::@5da4938488f7dd2701c7": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "cpp-httplib",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-build\\vendor\\cpp-httplib\\libcpp-httplib.a"
+    },
+    "ggml::@8962117a6a1c5621966e": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "ggml-base::@8962117a6a1c5621966e": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-base",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so",
+      "runtimeFiles": []
+    },
+    "ggml-cpu::@8962117a6a1c5621966e": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggml-cpu",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama::@5f746804226f86188607": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-android::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-android",
+      "output": "D:\\AI\\edgeai\\app\\build\\intermediates\\cxx\\Debug\\66536m3p\\obj\\x86_64\\libllama-android.so",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libmtmd.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-batched-bench::@88d6d5c726e678e8a566": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-batched-bench",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-batched-bench",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-batched-bench-impl.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-batched-bench-impl::@88d6d5c726e678e8a566": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-batched-bench-impl",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-batched-bench-impl.so",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-bench::@d4421b2bd06b46740cae": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-bench",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-bench",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-bench-impl.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-bench-impl::@d4421b2bd06b46740cae": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-bench-impl",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-bench-impl.so",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-common::@d12b319affc5d9f8ba13": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-common",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-common-base::@d12b319affc5d9f8ba13": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-common-base",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\_deps\\llama_cpp-build\\common\\libllama-common-base.a"
+    },
+    "llama-completion::@0255f62467eed471d22a": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-completion",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-completion",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-completion-impl.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-completion-impl::@0255f62467eed471d22a": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-completion-impl",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-completion-impl.so",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-cvector-generator::@2ef767bb1b9ad86ed18d": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-cvector-generator",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-cvector-generator",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-debug-template-parser::@1be91eb850a07c9c86e2": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-debug-template-parser",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-debug-template-parser",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-export-lora::@49b40f8164923194a5a5": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-export-lora",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-export-lora",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-fit-params::@5408d5d4ede8859c4d97": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-fit-params",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-fit-params",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-fit-params-impl.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-fit-params-impl::@5408d5d4ede8859c4d97": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-fit-params-impl",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-fit-params-impl.so",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-gemma3-cli::@1a92c4c7615eb3c2faae": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-gemma3-cli",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-gemma3-cli",
+      "runtimeFiles": []
+    },
+    "llama-gguf-split::@58ce23ce92b64bf25044": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-gguf-split",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-gguf-split",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-imatrix::@edb0d8b35efd8fed63c1": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-imatrix",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-imatrix",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-llava-cli::@1a92c4c7615eb3c2faae": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-llava-cli",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-llava-cli",
+      "runtimeFiles": []
+    },
+    "llama-minicpmv-cli::@1a92c4c7615eb3c2faae": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-minicpmv-cli",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-minicpmv-cli",
+      "runtimeFiles": []
+    },
+    "llama-mtmd-cli::@1a92c4c7615eb3c2faae": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-mtmd-cli",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-mtmd-cli",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libmtmd.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-mtmd-debug::@1a92c4c7615eb3c2faae": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-mtmd-debug",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-mtmd-debug",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libmtmd.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-perplexity::@67ec238c6691625441a8": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-perplexity",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-perplexity",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-perplexity-impl.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-perplexity-impl::@67ec238c6691625441a8": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-perplexity-impl",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-perplexity-impl.so",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-quantize::@589d9051b6834e7abc08": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-quantize",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-quantize",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-quantize-impl.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-quantize-impl::@589d9051b6834e7abc08": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-quantize-impl",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-quantize-impl.so",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-qwen2vl-cli::@1a92c4c7615eb3c2faae": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-qwen2vl-cli",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-qwen2vl-cli",
+      "runtimeFiles": []
+    },
+    "llama-results::@266ed2bf14d40de2ecb3": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-results",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-results",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-template-analysis::@1be91eb850a07c9c86e2": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-template-analysis",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-template-analysis",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-tokenize::@014712f499fe55b96a52": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-tokenize",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-tokenize",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "llama-tts::@b9d137af45970eec9ebf": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "llama-tts",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\llama-tts",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama-common.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    },
+    "mtmd::@1a92c4c7615eb3c2faae": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "mtmd",
+      "output": "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libmtmd.so",
+      "runtimeFiles": [
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libllama.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-cpu.so",
+        "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64\\bin\\libggml-base.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\HP\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\HP\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

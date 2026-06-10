@@ -1,0 +1,66 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"D:/AI/edgeai/app/.cxx/Debug/66536m3p/x86_64/_deps/llama_cpp-src/tools/mtmd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 92,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libmtmd.so"
+			],
+			"targetId" : "mtmd::@1a92c4c7615eb3c2faae",
+			"targetIndex" : 35,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"D:/AI/edgeai/app/.cxx/Debug/66536m3p/x86_64/_deps/llama_cpp-src/tools/mtmd/debug/mtmd-debug.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"D:/AI/edgeai/app/.cxx/Debug/66536m3p/x86_64/_deps/llama_cpp-src/tools/mtmd/mtmd.h",
+				"D:/AI/edgeai/app/.cxx/Debug/66536m3p/x86_64/_deps/llama_cpp-src/tools/mtmd/mtmd-helper.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/llama_cpp-build/tools/mtmd",
+		"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/x86_64/_deps/llama_cpp-src/tools/mtmd"
+	}
+}

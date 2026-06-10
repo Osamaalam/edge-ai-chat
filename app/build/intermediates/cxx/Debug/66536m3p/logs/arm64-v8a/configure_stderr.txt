@@ -1,0 +1,5 @@
+CMAKE_BUILD_TYPE=Debug
+CMake Warning at D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/vendor/cpp-httplib/CMakeLists.txt:152 (message):
+  OpenSSL not found, HTTPS support disabled
+
+

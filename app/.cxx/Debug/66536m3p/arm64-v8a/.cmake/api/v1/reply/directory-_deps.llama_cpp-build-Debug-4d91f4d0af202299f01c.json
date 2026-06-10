@@ -1,0 +1,107 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 247,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 271,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libllama.so"
+			],
+			"targetId" : "llama::@5f746804226f86188607",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/include/llama.h",
+				"D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/include/llama-cpp.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libllama-common.so"
+			],
+			"targetId" : "llama-common::@d12b319affc5d9f8ba13",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/llama",
+			"paths" : 
+			[
+				"D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-build/llama-config.cmake",
+				"D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-build/llama-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-build/llama.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/llama_cpp-build",
+		"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src"
+	}
+}

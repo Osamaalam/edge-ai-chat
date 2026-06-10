@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/llama_cpp-build/tools/batched-bench",
+		"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/x86_64/_deps/llama_cpp-src/tools/batched-bench"
+	}
+}

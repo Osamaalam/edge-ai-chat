@@ -1,0 +1,780 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.llama_cpp-build-Debug-4d91f4d0af202299f01c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src"
+				},
+				{
+					"build" : "_deps/llama_cpp-build/ggml",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.llama_cpp-build.ggml-Debug-ae1c3b480f4ae15da7e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/ggml"
+				},
+				{
+					"build" : "_deps/llama_cpp-build/ggml/src",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.llama_cpp-build.ggml.src-Debug-663a213147510300c8de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/ggml/src",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/ggml/src/ggml-cpu",
+					"jsonFile" : "directory-_deps.llama_cpp-build.ggml.src.ggml-cpu-Debug-9d53147634f4ded3aefd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/ggml/src/ggml-cpu"
+				},
+				{
+					"build" : "_deps/llama_cpp-build/src",
+					"jsonFile" : "directory-_deps.llama_cpp-build.src-Debug-7e56bc7374fcfad612cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/common",
+					"jsonFile" : "directory-_deps.llama_cpp-build.common-Debug-ce277ffaed1ef64cfc73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/common",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/vendor/cpp-httplib",
+					"jsonFile" : "directory-_deps.llama_cpp-build.vendor.cpp-httplib-Debug-4843bb689ca203ce0c6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/vendor/cpp-httplib",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools-Debug-2bf21baea5b59101977c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools"
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/batched-bench",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.batched-bench-Debug-19986fa8f52f78bb7970.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/batched-bench",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/gguf-split",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.gguf-split-Debug-d511a260b1f06b3a28e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/gguf-split",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/imatrix",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.imatrix-Debug-2379c34538f1117d248d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/imatrix",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/llama-bench",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.llama-bench-Debug-49592e40432a94f3d332.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/llama-bench",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/completion",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.completion-Debug-a7e24eb1adbd0c6e4f8a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/completion",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/perplexity",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.perplexity-Debug-c55ef5c261d67a5fc2ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/perplexity",
+					"targetIndexes" : 
+					[
+						26,
+						27
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/quantize",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.quantize-Debug-7c5ff4628eafa8dd07c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/quantize",
+					"targetIndexes" : 
+					[
+						28,
+						29
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/tokenize",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.tokenize-Debug-9c0c533dc752845b3627.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/tokenize",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/parser",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.parser-Debug-0accb2c93b9d9b795041.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/parser",
+					"targetIndexes" : 
+					[
+						15,
+						32
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/tts",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.tts-Debug-58b4d97ee07d5abe1fe5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/tts",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/mtmd",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.mtmd-Debug-4680c8c270f77761f59b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/mtmd",
+					"targetIndexes" : 
+					[
+						19,
+						22,
+						23,
+						24,
+						25,
+						30,
+						35
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/cvector-generator",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.cvector-generator-Debug-1cae5c8071c811b496ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/cvector-generator",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/export-lora",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.export-lora-Debug-f115d493e47a18397b4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/export-lora",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/fit-params",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.fit-params-Debug-fa5f912c13f84865b5ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/fit-params",
+					"targetIndexes" : 
+					[
+						17,
+						18
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/results",
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.results-Debug-05f355037ced6185de3d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a/_deps/llama_cpp-src/tools/results",
+					"targetIndexes" : 
+					[
+						31
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "llama-android",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					],
+					"name" : "llama.cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "ggml",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "cpp-httplib::@5da4938488f7dd2701c7",
+					"jsonFile" : "target-cpp-httplib-Debug-5b49e5b1ba4ea48bf999.json",
+					"name" : "cpp-httplib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml::@8962117a6a1c5621966e",
+					"jsonFile" : "target-ggml-Debug-bea2fdad6d954c065a9a.json",
+					"name" : "ggml",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-base::@8962117a6a1c5621966e",
+					"jsonFile" : "target-ggml-base-Debug-f4af77c63f89173a8bd8.json",
+					"name" : "ggml-base",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu::@8962117a6a1c5621966e",
+					"jsonFile" : "target-ggml-cpu-Debug-f612a2cf595d2309b4e5.json",
+					"name" : "ggml-cpu",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "llama::@5f746804226f86188607",
+					"jsonFile" : "target-llama-Debug-51385c0de6cfd34be8de.json",
+					"name" : "llama",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "llama-android::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-llama-android-Debug-9696577b6479b7509318.json",
+					"name" : "llama-android",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "llama-batched-bench::@88d6d5c726e678e8a566",
+					"jsonFile" : "target-llama-batched-bench-Debug-6d13ffad175330a1d8ac.json",
+					"name" : "llama-batched-bench",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "llama-batched-bench-impl::@88d6d5c726e678e8a566",
+					"jsonFile" : "target-llama-batched-bench-impl-Debug-f08b6e359098c0a7acc0.json",
+					"name" : "llama-batched-bench-impl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "llama-bench::@d4421b2bd06b46740cae",
+					"jsonFile" : "target-llama-bench-Debug-573e08c92ff2659f9b85.json",
+					"name" : "llama-bench",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "llama-bench-impl::@d4421b2bd06b46740cae",
+					"jsonFile" : "target-llama-bench-impl-Debug-fe6c15ccc06b3c87d09c.json",
+					"name" : "llama-bench-impl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "llama-common::@d12b319affc5d9f8ba13",
+					"jsonFile" : "target-llama-common-Debug-2391869556a43c79d818.json",
+					"name" : "llama-common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "llama-common-base::@d12b319affc5d9f8ba13",
+					"jsonFile" : "target-llama-common-base-Debug-f1cd6045ddf5f2400fb8.json",
+					"name" : "llama-common-base",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "llama-completion::@0255f62467eed471d22a",
+					"jsonFile" : "target-llama-completion-Debug-84d609de456a3da60478.json",
+					"name" : "llama-completion",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "llama-completion-impl::@0255f62467eed471d22a",
+					"jsonFile" : "target-llama-completion-impl-Debug-a2c47ac48f424f938fe0.json",
+					"name" : "llama-completion-impl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "llama-cvector-generator::@2ef767bb1b9ad86ed18d",
+					"jsonFile" : "target-llama-cvector-generator-Debug-0912cbe2d7e31db2d0f3.json",
+					"name" : "llama-cvector-generator",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "llama-debug-template-parser::@1be91eb850a07c9c86e2",
+					"jsonFile" : "target-llama-debug-template-parser-Debug-e290301d83e533c232ae.json",
+					"name" : "llama-debug-template-parser",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "llama-export-lora::@49b40f8164923194a5a5",
+					"jsonFile" : "target-llama-export-lora-Debug-853d4bdad00eb0f7cfa5.json",
+					"name" : "llama-export-lora",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "llama-fit-params::@5408d5d4ede8859c4d97",
+					"jsonFile" : "target-llama-fit-params-Debug-f90a9b854ac047522152.json",
+					"name" : "llama-fit-params",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "llama-fit-params-impl::@5408d5d4ede8859c4d97",
+					"jsonFile" : "target-llama-fit-params-impl-Debug-6a87e38c59ef707f5fc5.json",
+					"name" : "llama-fit-params-impl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "llama-gemma3-cli::@1a92c4c7615eb3c2faae",
+					"jsonFile" : "target-llama-gemma3-cli-Debug-fdf9ffcfd1dfb92229c0.json",
+					"name" : "llama-gemma3-cli",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "llama-gguf-split::@58ce23ce92b64bf25044",
+					"jsonFile" : "target-llama-gguf-split-Debug-384fcdfb661bc292b1c4.json",
+					"name" : "llama-gguf-split",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "llama-imatrix::@edb0d8b35efd8fed63c1",
+					"jsonFile" : "target-llama-imatrix-Debug-7259228b25c91e1da4ad.json",
+					"name" : "llama-imatrix",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "llama-llava-cli::@1a92c4c7615eb3c2faae",
+					"jsonFile" : "target-llama-llava-cli-Debug-0348b4d122eb4730680d.json",
+					"name" : "llama-llava-cli",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "llama-minicpmv-cli::@1a92c4c7615eb3c2faae",
+					"jsonFile" : "target-llama-minicpmv-cli-Debug-04f4c3dce0337809525f.json",
+					"name" : "llama-minicpmv-cli",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "llama-mtmd-cli::@1a92c4c7615eb3c2faae",
+					"jsonFile" : "target-llama-mtmd-cli-Debug-15700e16bccc3f176774.json",
+					"name" : "llama-mtmd-cli",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "llama-mtmd-debug::@1a92c4c7615eb3c2faae",
+					"jsonFile" : "target-llama-mtmd-debug-Debug-006cfb0cca462882674e.json",
+					"name" : "llama-mtmd-debug",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "llama-perplexity::@67ec238c6691625441a8",
+					"jsonFile" : "target-llama-perplexity-Debug-f367d8a183840cd70059.json",
+					"name" : "llama-perplexity",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "llama-perplexity-impl::@67ec238c6691625441a8",
+					"jsonFile" : "target-llama-perplexity-impl-Debug-bf1fe3059e98028edd8c.json",
+					"name" : "llama-perplexity-impl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "llama-quantize::@589d9051b6834e7abc08",
+					"jsonFile" : "target-llama-quantize-Debug-6a7528605cdd4eafc020.json",
+					"name" : "llama-quantize",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "llama-quantize-impl::@589d9051b6834e7abc08",
+					"jsonFile" : "target-llama-quantize-impl-Debug-9ea3d5e77b1022dee081.json",
+					"name" : "llama-quantize-impl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "llama-qwen2vl-cli::@1a92c4c7615eb3c2faae",
+					"jsonFile" : "target-llama-qwen2vl-cli-Debug-beb0f8345e88bc13da41.json",
+					"name" : "llama-qwen2vl-cli",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "llama-results::@266ed2bf14d40de2ecb3",
+					"jsonFile" : "target-llama-results-Debug-917c39e53a6ab444e031.json",
+					"name" : "llama-results",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "llama-template-analysis::@1be91eb850a07c9c86e2",
+					"jsonFile" : "target-llama-template-analysis-Debug-714fa9cd7f4b2f5418ac.json",
+					"name" : "llama-template-analysis",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "llama-tokenize::@014712f499fe55b96a52",
+					"jsonFile" : "target-llama-tokenize-Debug-e3e73a2a62e169cd4615.json",
+					"name" : "llama-tokenize",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "llama-tts::@b9d137af45970eec9ebf",
+					"jsonFile" : "target-llama-tts-Debug-8d56e014fd9dbc1d3704.json",
+					"name" : "llama-tts",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "mtmd::@1a92c4c7615eb3c2faae",
+					"jsonFile" : "target-mtmd-Debug-7f6f512a3be7a666e64d.json",
+					"name" : "mtmd",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/AI/edgeai/app/.cxx/Debug/66536m3p/arm64-v8a",
+		"source" : "D:/AI/edgeai/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

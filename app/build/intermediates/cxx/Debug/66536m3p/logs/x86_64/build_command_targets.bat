@@ -1,0 +1,38 @@
+@echo off
+"C:\\Users\\HP\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  -C ^
+  "D:\\AI\\edgeai\\app\\.cxx\\Debug\\66536m3p\\x86_64" ^
+  ggml ^
+  ggml-base ^
+  ggml-cpu ^
+  llama ^
+  llama-android ^
+  llama-batched-bench ^
+  llama-batched-bench-impl ^
+  llama-bench ^
+  llama-bench-impl ^
+  llama-common ^
+  llama-completion ^
+  llama-completion-impl ^
+  llama-cvector-generator ^
+  llama-debug-template-parser ^
+  llama-export-lora ^
+  llama-fit-params ^
+  llama-fit-params-impl ^
+  llama-gemma3-cli ^
+  llama-gguf-split ^
+  llama-imatrix ^
+  llama-llava-cli ^
+  llama-minicpmv-cli ^
+  llama-mtmd-cli ^
+  llama-mtmd-debug ^
+  llama-perplexity ^
+  llama-perplexity-impl ^
+  llama-quantize ^
+  llama-quantize-impl ^
+  llama-qwen2vl-cli ^
+  llama-results ^
+  llama-template-analysis ^
+  llama-tokenize ^
+  llama-tts ^
+  mtmd
