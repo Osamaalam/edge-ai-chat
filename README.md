@@ -1,3 +1,4 @@
+<img width="1823" height="855" alt="EdgeAI" src="https://github.com/user-attachments/assets/210549c6-716f-489f-9ba6-123d9a407428" />
 # Edge AI Chat - Local GGUF LLM Android App
 
 Edge AI Chat is a state-of-the-art, fully offline Android application that lets you run Large Language Models (LLMs) and Multimodal Vision-Language Models (VLMs) completely on-device. 
