@@ -1,4 +1,4 @@
-Updated: 2026-07-23
+Updated: 2026-08-16
 
 <img width="1823" height="855" alt="EdgeAI" src="https://github.com/user-attachments/assets/210549c6-716f-489f-9ba6-123d9a407428" />
 # Edge AI Chat - Local GGUF LLM Android App
